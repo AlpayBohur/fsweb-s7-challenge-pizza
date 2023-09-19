@@ -1,0 +1,76 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ce2829;
+  margin-bottom: 1.5rem;
+}
+
+.header > h1 {
+  font-size: 2.6rem;
+  margin: 3rem;
+  color: #fff;
+}
+.pizza-main {
+  margin: auto;
+  width: 35rem;
+  height: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+.pizza-puan {
+  display: flex;
+  justify-content: space-between;
+}
+.pizza-tip {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+.pizza-hamur {
+  margin-right: 7rem;
+}
+.pizza-ek {
+  margin-top: 3rem;
+}
+.checkboxs-map {
+  display: flex;
+  flex-wrap: wrap;
+}
+.checkboxs {
+  width: 175px;
+  display: flex;
+  justify-content: space-between;
+}
+.not {
+  margin-top: 3rem;
+}
+.pizza-fiyat {
+  display: flex;
+  justify-content: space-between;
+}
+
+.pizza-onay {
+  height: 100%;
+  width: 25rem;
+  border: 1px solid gray;
+}
+.onay-metin {
+  padding: 2rem;
+}
+.pizza-adet {
+  display: flex;
+  height: 2.5rem;
+  width: 1.5rem;
+}
+.sayi {
+  height: 2.5rem;
+  padding: 0.8rem;
+  border: 1px solid gray;
+}
+
+#order-button {
+  text-align: center;
+  width: 100%;
+}

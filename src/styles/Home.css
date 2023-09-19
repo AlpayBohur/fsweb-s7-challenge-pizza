@@ -1,0 +1,46 @@
+.container-home {
+  background-color: #ce2829;
+  height: 100%;
+  color: #faf7f2;
+  font-family: "Barlow", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container-home > h1 {
+  margin-top: 58px;
+  font-size: 33px;
+}
+.container-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+}
+
+.container-text {
+  color: #faf7f2;
+  font-family: "Quattrocento", serif;
+}
+
+#order-pizza {
+  color: black;
+  cursor: pointer;
+  background-color: #fdc913;
+  border: none;
+  font-size: 15px;
+  border-radius: 20px;
+  height: 45px;
+  width: 150px;
+}
+.home-btn {
+  margin-top: 10px;
+}
+.container-img img {
+  margin-top: 100px;
+  height: 55vh;
+  width: 100%;
+  transform: rotate(3.142rad);
+}
